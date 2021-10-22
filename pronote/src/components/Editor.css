@@ -1,0 +1,31 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    box-sizing: border-box;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.input-text,.output-text{
+    width: 500px;
+    height:75%;
+    background-color: transparent;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.input-text{
+    color: whitesmoke;
+    outline: none;
+}
+
+.output-text{
+    background-color: black;
+}
