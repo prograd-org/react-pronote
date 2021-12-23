@@ -1,0 +1,53 @@
+* {
+    background-color: #3867d6;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 1.5em 0;
+}
+
+.container div {
+    min-width: 500px;
+    min-height: 450px;
+    color: whitesmoke;
+    text-align: left;
+}
+
+/* HEADING of I/O DIVs */
+h3 {
+    font-weight: 400;
+}
+
+/* INPUT */
+textarea {
+    min-width: 600px;
+    min-height: inherit;
+    border: 2px solid #464646;
+    color: whitesmoke;
+}
+
+/* OUTPUT */
+.output-text {
+    background-color: #464646;
+    border: 1px solid #464646;
+    font-size: large;
+    box-shadow: 10px 10px 20px 1px #3d3d3d;
+}
+
+/* RESET BUTTON */
+#reset-btn {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    inset: 76vh 0 0 46vw;
+    border-radius: 100%;
+}
+
+#reset-btn:hover {
+    transform: scale(1.2, 1.2);
+    transform: rotate(.9turn);
+} 
